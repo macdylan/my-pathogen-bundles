@@ -34,3 +34,6 @@
 [submodule "vim-ipython"]
 	path = vim-ipython
 	url = git://github.com/vim-scripts/vim-ipython.git
+[submodule "vimcdoc"]
+    path = vimcdoc
+    url = git://github.com/ahao/vimcdoc.git
