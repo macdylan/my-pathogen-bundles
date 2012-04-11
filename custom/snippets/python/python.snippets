@@ -1,0 +1,112 @@
+snippet #!
+	#!/usr/bin/python
+
+snippet coding
+	# -*- coding: utf-8 -*-
+
+snippet i
+	import 
+snippet f
+	from ${1:} import ${2:}
+# Module Docstring
+snippet docs
+	'''
+	File: ${1:`Filename('$1.py', 'foo.py')`}
+	Author: ${2:`g:snips_author`}
+	Description: ${3}
+	'''
+snippet w
+	while 
+snippet for
+	for ${1:needle} in ${2:haystack}:
+		${3:pass}
+# New Class
+snippet c
+	class ${1:ClassName}(${2:object}):
+		def __init__(self):
+			${3:super($1, self).__init__()}
+			${4}
+
+# New Function
+snippet d
+	def ${1:fname}(${2:`indent('.') ? 'self' : ''`}${3}):
+		${4:pass}
+
+# New Property
+snippet property
+	def ${1:foo}():
+		doc = "${2:The $1 property.}"
+		def fget(self):
+			${3:return self._$1}
+		def fset(self, value):
+			${4:self._$1 = value}
+# Lambda
+snippet la
+	${1:var} = lambda ${2:vars} : ${3:action}
+snippet l
+	lambda 
+snippet try Try/Except
+	try:
+		${1:pass}
+	except ${2:Exception}, ${3:e}:
+		${4:raise $3}
+snippet try Try/Except/Else
+	try:
+		${1:pass}
+	except ${2:Exception}, ${3:e}:
+		${4:raise $3}
+	else:
+		${5:pass}
+snippet try Try/Except/Finally
+	try:
+		${1:pass}
+	except ${2:Exception}, ${3:e}:
+		${4:raise $3}
+	finally:
+		${5:pass}
+snippet try Try/Except/Else/Finally
+	try:
+		${1:pass}
+	except ${2:Exception}, ${3:e}:
+		${4:raise $3}
+	else:
+		${5:pass}
+	finally:
+		${6:pass}
+# if __name__ == '__main__':
+snippet ifmain
+	if __name__ == '__main__':
+		${1:main()}
+# __magic__
+snippet __
+	__${1:init}__${2}
+snippet s
+	self
+snippet "
+	"""${1}"""
+snippet '
+	'''${1}'''
+snippet @ classmethod
+	@classmethod
+snippet @ staticmethod
+	@staticmethod
+snippet @ property
+	@property
+snippet importjson
+	try:
+		# Python >= 2.6
+		import json as simplejson
+	except ImportError:
+		try:
+			# Python < 2.6
+			import simplejson
+		except ImportError:
+			try:
+				# Google App Engine
+				from django.utils import simplejson
+			except ImportError:
+				raise ImportError, "Unable to load a json library"
+snippet r
+	return 
+snippet pdb
+	import pdb; pdb.set_trace()

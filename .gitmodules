@@ -1,0 +1,36 @@
+[submodule "snipmate.vim"]
+	path = snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "nerdcommenter"]
+	path = nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim-nerdtree-tabs"]
+	path = vim-nerdtree-tabs
+	url = git://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bufexplorer.zip"]
+	path = bufexplorer.zip
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "jsbeautify"]
+	path = jsbeautify
+	url = git://github.com/vim-scripts/jsbeautify.git
+[submodule "tabular"]
+	path = tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "Tagbar"]
+	path = Tagbar
+	url = git://github.com/vim-scripts/Tagbar.git
+[submodule "zencoding-vim"]
+	path = zencoding-vim
+	url = git://github.com/mattn/zencoding-vim.git
+[submodule "vim-python-imports"]
+	path = vim-python-imports
+	url = git://github.com/vim-scripts/vim-python-imports.git
+[submodule "vim-indent-guides"]
+	path = vim-indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vim-ipython"]
+	path = vim-ipython
+	url = git://github.com/vim-scripts/vim-ipython.git
