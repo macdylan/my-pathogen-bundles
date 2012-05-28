@@ -37,3 +37,6 @@
 [submodule "vimcdoc"]
     path = vimcdoc
     url = git://github.com/ahao/vimcdoc.git
+[submodule "vim-coffee-script"]
+	path = vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
