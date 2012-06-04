@@ -25,9 +25,6 @@
 [submodule "zencoding-vim"]
 	path = zencoding-vim
 	url = git://github.com/mattn/zencoding-vim.git
-;[submodule "vim-python-imports"]
-	;path = vim-python-imports
-	;url = git://github.com/vim-scripts/vim-python-imports.git
 [submodule "vim-indent-guides"]
 	path = vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
@@ -40,3 +37,6 @@
 [submodule "vim-coffee-script"]
 	path = vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vim-addon-manager"]
+	path = vim-addon-manager
+	url = git://github.com/MarcWeber/vim-addon-manager.git
